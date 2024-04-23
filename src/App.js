@@ -6,7 +6,7 @@ import './components/style.css';
 
 function App() {
   return (
-    <Router basename="/pokedex">
+    <Router>
       <Routes>
         <Route exact path="/" Component={Main} />
         <Route exact path="/about" Component={About} />
