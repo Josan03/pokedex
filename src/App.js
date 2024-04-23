@@ -8,7 +8,7 @@ function App() {
   return (
     <Router basename="/pokedex">
       <Routes>
-        <Route exact path="/" Component={Main} />
+        <Route exact path="/home" Component={Main} />
         <Route exact path="/about" Component={About} />
       </Routes>
     </Router>
